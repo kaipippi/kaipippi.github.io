@@ -1,0 +1,227 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header,footer{
+background: #f0dce2;
+}
+
+header{
+	height:8vh;
+}
+
+header h1{
+	margin:1.5vh 5vw;
+	font-size:5vh;
+	float:left;
+}
+
+header h1 a{
+	text-decoration: none;
+	color:#1db8a3;
+}
+
+
+header ul{
+	height:8vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right:20vw;
+}
+
+main{
+    height:87vh;
+	background-image: url(./../images/aozora/E4604qsVgAA_cUu.jpg);
+	background-size: cover;
+	background-position:30% 80%;
+ 	margin: 0;
+	 padding: 0;
+}
+
+
+
+@media (max-aspect-ratio:1/1){
+header h1{
+	float:none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top:1vh;
+	margin:0vh;
+	}
+header{
+	height:14vh;
+	}
+main{
+	height:81vh;
+	}
+	header ul{
+		padding-right:0px;
+	}
+}
+
+header ul li,footer ul li{
+list-style: none;
+float: left;
+}
+
+
+
+footer{
+    height:5vh;
+}
+footer p{
+	float:none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:black;
+	font-size:2vh;
+	padding:1.5vh;
+}
+
+header ul li a {
+color: white;
+padding: 2vh 2.8vw;
+margin: 0vh 0.2vw;
+background-color:#e0c2cb;
+text-decoration: none;
+font-size:2vh;
+transition:0.1s;
+}
+
+header ul li a:hover{
+background-color: white;
+color:#e0c2cb;
+}
+
+.maincon{
+	padding:10vh;
+	font-size:4.5vmin;
+	color:orange;
+	float:none;
+	display:flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.homebuttons{
+	padding-top:15vh;
+	float:right;
+}
+@media (max-aspect-ratio:1/1){
+	.homebuttons{
+		padding-top:30vh;}
+}
+
+.homebuttons li{
+	list-style: none;
+
+}
+.homebuttons li a{
+	float: right;
+color: white;
+padding: 1vh 4vw;
+margin: 0.5vh 0vw;
+background:linear-gradient(to right,#c0e3e5,#e0c2cb);
+background-size: 200%;
+background-position:80%;
+text-decoration: none;
+font-size:3vh;
+transition:0.3s;
+}
+
+.homebuttons li a:hover{
+	background-position:20%;
+}
+
+
+
+
+
+
+.soundcloud{
+	float:none;
+	display:flex;
+	text-align:center;
+	justify-content: center;
+}
+
+.soundcloud iframe{
+padding-top:10px;
+
+}
+
+.links li{
+	list-style:none;
+	font-size:4vh;
+	float:none;
+	display:flex;
+	text-align:center;
+	justify-content:center;
+}
+.links a{
+	color: white;
+	width:50vw;
+	height: 6vh;
+	padding:2vh 0vh 0 0 ;
+	margin:0.4vh;
+	background:linear-gradient(to right,#8ce8de,#e985a3f1);
+background-size: 200%;
+background-position:80%;
+transition:0.3s;
+text-decoration: none;
+}
+.links a:hover{
+	background-position:20%;
+}
+.twitter-timeline{
+	float:right;
+}
