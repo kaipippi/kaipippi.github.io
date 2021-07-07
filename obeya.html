@@ -4,7 +4,14 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="./css/style.css">
-<title>ぴっぴっぴ</title>
+<title>大部屋/ぴっぴ</title>
+<link rel="shortcut icon" href="TemplateData/favicon.ico">
+<link rel="stylesheet" href="TemplateData/style.css">
+<script src="TemplateData/UnityProgress.js"></script>
+<script src="Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/0.6.json", {onProgress: UnityProgress});
+</script>
 </head>
 
 <body>
@@ -19,8 +26,14 @@
     
     </header>
 <main>
-    <dev class="maincon">
-        じゅんびちゅー。</dev>
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 90vw; height: 70vh"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+          <div class="title"><a href="https://vrchat.com/home/launch?worldId=wrld_02996fb0-8f20-4fa3-8be7-402d52c2767f">大部屋+</a></div>
+        </div>
+      </div>
 </main>
 <footer>
 <p>
