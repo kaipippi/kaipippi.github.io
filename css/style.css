@@ -222,6 +222,6 @@ text-decoration: none;
 .links a:hover{
 	background-position:20%;
 }
-.twitter-timeline{
-	float:right;
+.webgl-content .title .a{
+	color:white;
 }
