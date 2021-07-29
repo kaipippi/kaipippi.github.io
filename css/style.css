@@ -202,7 +202,7 @@ height:12vh;
 
 .links li{
 	list-style:none;
-	font-size:4vh;
+	font-size: 3.8vh;
 	float:none;
 	display:flex;
 	text-align:center;
@@ -211,7 +211,7 @@ height:12vh;
 .links a{
 	color: white;
 	width:50vw;
-	height: 6vh;
+	height: 5vh;
 	padding:2vh 0vh 0 0 ;
 	margin:0.4vh;
 	background:linear-gradient(to right,#8ce8de,#e985a3f1);
