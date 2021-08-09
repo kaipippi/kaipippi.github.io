@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="./../css/style.css">
+<title>Do楽器/ぴっぴ</title>
+<link rel="shortcut icon" href="TemplateData/favicon.ico">
+<link rel="stylesheet" href="TemplateData/style.css">
+<script src="TemplateData/UnityProgress.js"></script>
+<script src="Build/UnityLoader.js"></script>
+<script>
+ var unityInstance = UnityLoader.instantiate("unityContainer", "Build/0.2.json", {onProgress: UnityProgress});
+</script>
+</head>
+
+<body>
+    <header>
+
+        <h1><a href="index.html">ぴっぴの部屋</a></h1>
+        <ul>
+        <li><a href="obeya.html">大部屋</a></li>
+        <li><a href="music.html">音楽</a></li>
+        <li><a href="links.html">リンク</a></li>
+        </ul>
+    
+    </header>
+<main>
+  <div class="webgl-content">
+    <div id="unityContainer" style="width: 90vw; height: 70vh"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+      <div class="title">DoInstrument</div>
+    </div>
+  </div>
+</main>
+<footer>
+<p>
+かいぴっぴ
+</p>
+</footer>
+
+</body>
+</html>
