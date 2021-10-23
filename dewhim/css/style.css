@@ -47,3 +47,30 @@ font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 margin: 0;
 padding: 0;
 }
+
+header{
+	height:8vh;
+}
+
+header ul{
+	height:8vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right:20vw;
+}
+
+header ul li{
+	list-style: none;
+	float: left;
+}
+
+header ul li a {
+	color: white;
+	padding: 2vh 2.8vw;
+	margin: 0vh 0.2vw;
+	background-color:#e0c2cb;
+	text-decoration: none;
+	font-size:2vh;
+	transition:0.1s;
+	}
