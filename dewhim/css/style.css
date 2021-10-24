@@ -66,6 +66,12 @@ main ul li img{
 	background-color: white;
 }
 
+@media (max-aspect-ratio:1/1){
+	main ul li img{
+		height:60px;
+	}
+}
+
 main ul li a:hover img{
 	background-color: #aaaaaa;
 }
