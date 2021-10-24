@@ -57,6 +57,10 @@ main{
    transparent 0, transparent 120px);
 }
 
+main .shoplogo img{
+	margin: 10px 0;
+}
+
 main ul li img{
 	padding: 0 10px;
 	background-color: white;
