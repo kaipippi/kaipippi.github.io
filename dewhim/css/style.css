@@ -91,20 +91,10 @@ header img{
 	width:500px;
 	border: 5px solid rgb(252,10,79);
 	}
-.routerfm{
-	display:flex;
-	text-align:center;
-	justify-content: center;
-	overflow:hidden;
-	margin-left:0vw;
-	width:100vw;
 
-}
 	iframe{
-		width: 480px;
-		height:160px;
 		border:0;
-		padding: 10px;
+		padding: 20px;
 	}
 
 h1 {
